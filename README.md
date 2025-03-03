@@ -16,6 +16,7 @@ In this beginner course, you'll learn how to:
 - Run a basic drone simulation.
 - Explore the tools and features of PX4.
 
+
 This is the first step in a scalable learning journey—more advanced topics can be added later!
 
 ## Prerequisites
@@ -37,4 +38,34 @@ Follow these steps to set up and run your first PX4 drone simulation:
 Open your terminal and run:
 ```bash
 git clone https://github.com/anushka002/Learn-PX4-Autopilot.git
-cd Learn-PX4-Autopilot
+```
+### 3. Set Up PX4 Firmware (Already Present in Repo)
+Install dependencies (Ubuntu example):
+```
+cd Learn-PX4-Autopilot/PX4-Autopilot
+bash ./Tools/setup/ubuntu.sh
+```
+(For Windows or macOS, check the [official PX4 docs](https://docs.px4.io/main/en/dev_setup/dev_env.html))
+
+### 4. Run Your First Simulation
+In the PX4-Autopilot folder, start the simulation:
+```
+make px4_sitl gazebo
+```
+Open QGroundControl to see your virtual drone in action!
+```
+cd path-to-QGroundControl app image file
+chmod +x QGroundControl.AppImage
+./QGroundControl.AppImage
+```
+---
+### What’s Next?
+
+Try flying the drone in the simulator using QGroundControl.
+Check out the /docs folder in this repo (coming soon!) for more guides.
+
+---
+### Resources
+[PX4 Official Documentation](https://docs.px4.io/main/en/)
+
+Happy simulating! 🚁
