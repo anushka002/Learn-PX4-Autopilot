@@ -4,6 +4,9 @@
 
 Welcome to the **PX4 Autopilot Drone Simulation Beginner Course**! This repository is designed to help you get started with simulating a drone using the PX4 Autopilot software. Whether you're new to drones or software simulation, this guide will walk you through the basics in a simple and friendly way.
 
+![image](https://github.com/user-attachments/assets/c6a9612b-9817-4af2-861d-b3f1ef637fe2)
+
+
 ## What is PX4 Autopilot?
 PX4 is an open-source flight control software used for drones and other unmanned vehicles. With PX4, you can simulate a drone's behavior in a virtual environment before testing it in the real world.
 
